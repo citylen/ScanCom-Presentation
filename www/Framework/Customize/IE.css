@@ -1,0 +1,8 @@
+﻿.affix {
+	position:unset;
+}
+
+.affix + .StartBody {
+	padding-top: 0px;
+}
+

@@ -1,0 +1,125 @@
+﻿body {
+	font-family: Verdana;
+}
+.LGStyle{
+    background-color:#003a62;
+}
+.LGStyle *{
+    color:white;
+}
+@media (min-width: 768px) {
+	.container-fluid {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+.panel-footer *, .product01 *{
+	font-size:13px;
+}
+vertical-center-row {
+	display: flex;
+	align-items: center;
+}
+
+.ToolBar1 {
+	border-bottom: 1px solid #e3e3e3;
+	background-color: #f1f1f1;
+}
+
+	.ToolBar1 i {
+		border-right: 1px solid #e3e3e3;
+		height: 25px;
+		padding: 5px;
+		color: #999999;
+	}
+
+	.ToolBar1 span {
+		font-family: Verdana;
+		font-size: 11px;
+		color: #999999;
+	}
+
+@media (max-width: 540px) {
+	.ToolBar1 span {
+		display: none;
+	}
+}
+
+.LogoImage1 {
+	max-height: 42px;
+	margin-top: 9px;
+	margin-bottom: 9px;
+}
+
+.affix {
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+
+@media (max-width: 768px) {
+	.affix {
+		overflow-y: auto;
+		overflow-x: hidden;
+		max-height: 100%;
+	}
+}
+.StartBody {
+	padding-top: 63px;
+}
+.affix + .StartBody {
+	padding-top: 64px;
+}
+
+
+.socials li {
+	padding: 11px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+	.socials li a, .socials li a:hover {
+		text-decoration: none;
+	}
+
+		.socials li a i {
+			display: block;
+			width: 35px;
+			height: 35px;
+			line-height: 35px;
+			text-align: center;
+			border-radius: 5px;
+			font-size: 21px;
+			color: white;
+		}
+
+			.socials li a i:hover {
+				background-color: white;
+				color: #003a62;
+			}
+			
+		.socials li a i {
+			background-color: #003a62;
+			box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.7), 0 2px 5px 0 rgba(255, 255, 255, 0.6);
+
+		}
+
+
+
+.navbar-collapse .dropdown-menu > li a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 70px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	min-width: 200px;
+}
+
+.navbar-collapse {
+	padding-right: 0px;
+}
+.DRImage{
+	padding-left:20px;
+	padding-right: 20px;
+	display:inline-block;
+
+}
